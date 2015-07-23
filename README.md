@@ -7,6 +7,7 @@ Bash script to get public IP from icanhazip.com and update an AWS Route53 hostna
 Requirements: 
 - aws cli (pip install awscli or apt-get install awscli)
 - curl
+- Configure your AWS keys with `aws configure`
 
 ```
 cd <somewhere on your file system such as /opt/>
